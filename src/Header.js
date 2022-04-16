@@ -5,7 +5,7 @@ import './style.css'
 export default function Header() {
     return(
         <div className='header'>
-            <img src={Logo} className='header-img'/>
+            <img src={Logo} className='header-img' alt='logo'/>
             <h2 className="header--title">MEME GENERATOR</h2>
         </div>
     )
