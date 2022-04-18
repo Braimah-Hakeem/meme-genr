@@ -45,7 +45,10 @@ main {
 
 @media only screen and (max-width: 420px) {
   .form {
-    margin-right: 15px;
+    display: grid;
+    grid-template: 25px 25px / 1fr 1fr;
+    gap: 7px;
+    margin-bottom: 17px;
   }
 }
 
@@ -72,12 +75,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 500px;
 }
 
 .meme--image {
   width: 100%;
-  height: 100%;
 }
 
 .meme--text {
